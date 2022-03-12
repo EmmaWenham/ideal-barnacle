@@ -4,6 +4,8 @@
     <title></title>
 </head>
 <h1>Welcome to my page!</h1>
+<br />
+<p>Thank you for visiting my page.</p>
 <body>
     <fieldset>
         <legend>Personal Details:</legend>
@@ -18,11 +20,15 @@
     </fieldset>
     <br>
     <fieldset>
-        <legend>Reason for contact</legend>
-    
-        <label for="notes">Enter comments</label>
+        <h2>Reason for contact</h2>
+        <select name="following reason">
+            <option value="reason 1" selected>Reason 1</option>
+            <option value="reason 2">Reason 2</option>
+            <option value="reason 3">Reason 3</option>
+        </select> <br>
+        <label for="notes">Other Comments</label> <br>
         <textarea id="notes"></textarea>
-    <br>
+    <br />
     <input type="submit" name="submit" value="Submit">
 </body>
 </html>
